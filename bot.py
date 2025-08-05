@@ -47,7 +47,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 #LOCAL_API_URL = "http://localhost:8081"  # URL вашего локального API сервера
-TOKEN = "7734762866:AAHApF0xqF4fQ37gBuzpwcLYTd5IIBbaUy8"  # Ваш токен бота
+TOKEN = "11111"  # Ваш токен бота
 DELETE_STATE = 3
 PAGE_SIZE = 5
 DELETE_CONVERSATION_TIMEOUT = 300
@@ -85,7 +85,7 @@ async def init_db():
         await db.commit()
 
 # Конфигурация
-PHOTO_ALBUM_LINK = "https://disk.yandex.ru/d/c9CCA71_4uXjeQ"
+PHOTO_ALBUM_LINK = "url" #Ваша ссылка на альбом
 MEDIA_FOLDER = "/Фото"
 ALLOWED_MIME_TYPES = {
     "image/jpeg": "jpg",
